@@ -79,6 +79,16 @@ export function Footer({ onNavigate }: FooterProps) {
               </li>
               <li>
                 <a
+                  href="/resume/Mazhar_Abbas_ATS_Resume.pdf"
+                  download="Mazhar_Abbas_ATS_Resume.pdf"
+                  className="inline-flex items-center gap-1.5 transition-colors hover:text-white"
+                >
+                  <span>Download Resume (PDF)</span>
+                  <ArrowUpRight className="h-3.5 w-3.5 text-[#C084FC]" aria-hidden="true" />
+                </a>
+              </li>
+              <li>
+                <a
                   href={`mailto:${PROFILE.email}`}
                   className="inline-flex items-center gap-1.5 transition-colors hover:text-white"
                 >
@@ -91,8 +101,8 @@ export function Footer({ onNavigate }: FooterProps) {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-[#292333]/80 pt-7 text-xs text-[#A5A1B2] sm:flex-row sm:items-center">
-          <p>Designed and developed by Mazhar Abbas.</p>
-          <p className="tabular-nums">&copy; {currentYear} Mazhar Abbas. All rights reserved.</p>
+          <p>Designed and developed by Mazhar Abbas❤️</p>
+          <p className="tabular-nums">&copy; {currentYear} Mazhar Abbas❤️ </p>
         </div>
       </div>
     </footer>

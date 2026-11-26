@@ -1,9 +1,9 @@
 import { motion, useReducedMotion } from 'motion/react';
-import { ArrowUpRight, FileText } from 'lucide-react';
+import { ArrowUpRight, Download, FileText } from 'lucide-react';
 import { PROFILE } from '../data/profile';
 
 interface AboutProps {
-  onOpenResume: () => void;
+  onOpenResume?: () => void;
 }
 
 export function About({ onOpenResume }: AboutProps) {
@@ -48,15 +48,16 @@ export function About({ onOpenResume }: AboutProps) {
             </div>
 
             <div className="mt-8 flex flex-wrap items-center gap-5">
-              {/* Glowing Pill Resume Button */}
-              <button
-                type="button"
-                onClick={onOpenResume}
-                className="inline-flex min-h-[46px] items-center gap-2.5 rounded-full border border-[#9B5CFF] bg-[#090714] px-7 py-3 text-sm font-bold tracking-wide text-white shadow-[0_0_24px_rgba(155,92,255,0.4)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C084FC] hover:bg-[#9B5CFF]/20 hover:shadow-[0_0_36px_rgba(155,92,255,0.7)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+              {/* Glowing Pill Download Resume Button */}
+              <a
+                href="/resume/Mazhar_Abbas_ATS_Resume.pdf"
+                download="Mazhar_Abbas_ATS_Resume.pdf"
+                className="resume-download-button inline-flex min-h-[46px] items-center gap-2.5 rounded-full border border-[#9B5CFF] bg-[#090714] px-7 py-3 text-sm font-bold tracking-wide text-white shadow-[0_0_24px_rgba(155,92,255,0.4)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C084FC] hover:bg-[#9B5CFF]/20 hover:shadow-[0_0_36px_rgba(155,92,255,0.7)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+                aria-label="Download ATS Resume PDF for Mazhar Abbas"
               >
-                <span>Resume</span>
-                <FileText className="h-4 w-4 text-[#C084FC]" />
-              </button>
+                <span>Download Resume</span>
+                <Download className="h-4 w-4 text-[#C084FC]" aria-hidden="true" />
+              </a>
 
               <div className="flex items-center gap-2 font-mono text-xs text-[#A5A1B2]">
                 <span className="h-2 w-2 rounded-full bg-[#22c55e] animate-pulse" />

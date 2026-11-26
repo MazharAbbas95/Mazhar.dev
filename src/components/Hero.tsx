@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
-import { ArrowDown, FileText, Github, Linkedin, Mail, MessageSquare } from 'lucide-react';
+import { ArrowDown, Download, FileText, Github, Linkedin, Mail, MessageSquare } from 'lucide-react';
 import { PROFILE } from '../data/profile';
 
 interface HeroProps {
   onExploreWork: () => void;
-  onOpenResume: () => void;
+  onOpenResume?: () => void;
 }
 
 const PROFESSIONS = [
@@ -154,7 +154,7 @@ export function Hero({ onExploreWork, onOpenResume }: HeroProps) {
               <Mail className="h-4 w-4" />
             </a>
             <a
-              href="https://wa.me/923000000000"
+              href="https://wa.me/923262066565"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp chat"
@@ -174,15 +174,16 @@ export function Hero({ onExploreWork, onOpenResume }: HeroProps) {
             <ArrowDown className="h-3.5 w-3.5 animate-bounce text-[#C084FC]" />
           </button>
 
-          {/* Resume Glowing Pill Button matching Reference Video */}
-          <button
-            type="button"
-            onClick={onOpenResume}
-            className="inline-flex min-h-[44px] items-center gap-2.5 rounded-full border border-[#9B5CFF]/80 bg-[#090714] px-6 py-2.5 text-xs font-bold tracking-wide text-white shadow-[0_0_24px_rgba(155,92,255,0.32)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C084FC] hover:bg-[#9B5CFF]/20 hover:shadow-[0_0_36px_rgba(155,92,255,0.6)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+          {/* Download Resume Glowing Pill Button */}
+          <a
+            href="/resume/Mazhar_Abbas_ATS_Resume.pdf"
+            download="Mazhar_Abbas_ATS_Resume.pdf"
+            className="resume-download-button inline-flex min-h-[44px] items-center gap-2.5 rounded-full border border-[#9B5CFF]/80 bg-[#090714] px-6 py-2.5 text-xs font-bold tracking-wide text-white shadow-[0_0_24px_rgba(155,92,255,0.32)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[#C084FC] hover:bg-[#9B5CFF]/20 hover:shadow-[0_0_36px_rgba(155,92,255,0.6)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+            aria-label="Download ATS Resume PDF for Mazhar Abbas"
           >
-            <span>Resume</span>
-            <FileText className="h-3.5 w-3.5 text-[#C084FC]" />
-          </button>
+            <span>Download Resume</span>
+            <Download className="h-3.5 w-3.5 text-[#C084FC]" aria-hidden="true" />
+          </a>
         </div>
       </div>
     </section>

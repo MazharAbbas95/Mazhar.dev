@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import { FileText, Mail, ArrowRight, X } from 'lucide-react';
+import { FileText, Mail, ArrowRight, X, Download } from 'lucide-react';
 import { PROFILE } from '../data/profile';
 
 interface ResumeModalProps {
@@ -72,30 +72,52 @@ export function ResumeModal({ isOpen, onClose, onRequestViaForm }: ResumeModalPr
 
               <div className="mt-5 space-y-3 text-sm leading-relaxed text-[#A5A1B2]">
                 <p>
-                  The downloadable PDF file (<code className="text-white">/public/resume.pdf</code>) has not been attached yet. Rather than providing a placeholder document, you can request my latest verified resume directly.
+                  Official recruiter-ready, ATS-optimized resume for <strong className="text-white">Mazhar Abbas</strong> (Software Developer). Available for direct download in both PDF and editable Word (DOCX) formats.
                 </p>
                 <p className="text-xs text-[#A5A1B2]/80">
-                  Includes current role at AHL Technologies, BSCS coursework at MNSUAM, software projects, and competition achievements.
+                  Verified with current role at AHL Technologies, BSCS coursework at MNSUAM, key software engineering projects, and national competition achievements.
                 </p>
               </div>
 
+              {/* Direct Download Actions */}
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="/resume/Mazhar_Abbas_ATS_Resume.pdf"
+                  download="Mazhar_Abbas_ATS_Resume.pdf"
+                  className="resume-download-button inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-[#9B5CFF] px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-[#8B46FF] violet-button-glow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C084FC]"
+                >
+                  <Download className="h-4 w-4" aria-hidden="true" />
+                  <span>Download Resume (PDF)</span>
+                </a>
+                <a
+                  href="/resume/Mazhar_Abbas_ATS_Resume.docx"
+                  download="Mazhar_Abbas_ATS_Resume.docx"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#292333] bg-[#0D0B14] px-5 py-3 text-sm font-medium text-white transition-colors hover:border-[#9B5CFF]/50 hover:bg-[#171224] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+                >
+                  <FileText className="h-4 w-4 text-[#C084FC]" aria-hidden="true" />
+                  <span>Download (DOCX)</span>
+                </a>
+              </div>
+
+              {/* Secondary Inquiries */}
+              <div className="mt-3 flex flex-col gap-2 pt-2 border-t border-[#292333]/60 sm:flex-row text-xs text-[#A5A1B2]">
                 <button
                   type="button"
                   onClick={() => {
                     onClose();
                     onRequestViaForm();
                   }}
-                  className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-[#9B5CFF] px-5 py-3 text-sm font-semibold text-white transition-all hover:bg-[#8B46FF] violet-button-glow focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#C084FC]"
+                  className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
                 >
-                  <span>Request via Contact Form</span>
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  <span>Request custom version via contact form</span>
+                  <ArrowRight className="h-3 w-3" aria-hidden="true" />
                 </button>
+                <span className="hidden sm:inline text-[#292333]">•</span>
                 <a
-                  href={`mailto:${PROFILE.email}?subject=${encodeURIComponent('Resume Request — Mazhar Abbas')}`}
-                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#292333] bg-[#0D0B14] px-5 py-3 text-sm font-medium text-white transition-colors hover:border-[#9B5CFF]/50 hover:bg-[#171224] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#9B5CFF]"
+                  href={`mailto:${PROFILE.email}?subject=${encodeURIComponent('Resume Inquiry — Mazhar Abbas')}`}
+                  className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
                 >
-                  <Mail className="h-4 w-4 text-[#C084FC]" aria-hidden="true" />
+                  <Mail className="h-3 w-3 text-[#C084FC]" aria-hidden="true" />
                   <span>Email Directly</span>
                 </a>
               </div>

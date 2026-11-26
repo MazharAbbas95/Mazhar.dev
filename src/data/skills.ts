@@ -10,22 +10,22 @@ export interface SkillCategory {
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
-    id: 'frontend',
+    id: 'full-stack-development',
     index: '01',
-    title: 'Frontend Development',
-    subtitle: 'Building responsive, accessible interfaces for modern web applications.',
+    title: 'Full Stack Development',
+    subtitle: 'Building responsive, modern, user-friendly web interfaces using modern full stack technologies.',
     statusLabel: 'Core Practice',
     isExploring: false,
-    items: ['HTML', 'CSS', 'JavaScript', 'React', 'Angular'],
+    items: ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'TypeScript', 'MySQL', 'PostgreSQL', 'Node.js', 'Express.js', 'REST APIs', 'TypeScript'],
   },
   {
-    id: 'programming-backend',
+    id: 'programming',
     index: '02',
-    title: 'Programming and Backend',
+    title: 'Programming Languages & Frameworks',
     subtitle: 'Application logic, desktop interfaces, APIs, and foundational computer science.',
     statusLabel: 'Core Practice',
     isExploring: false,
-    items: ['C', 'C++', 'Python', 'REST APIs', 'Data Structures and Algorithms', 'Qt'],
+    items: ['C', 'C++', 'Python', 'Data Structures and Algorithms', 'Qt', 'React', 'Angular',],
   },
   {
     id: 'data-science',

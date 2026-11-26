@@ -45,6 +45,8 @@ export function Education() {
                   <span className="font-mono">{EDUCATION.semester}</span>
                   <span aria-hidden="true">·</span>
                   <span>{EDUCATION.status}</span>
+                  <span aria-hidden="true">·</span>
+                  <span className="font-mono text-[#A5A1B2]">2024 – 2028</span>
                 </div>
                 <h3 className="mt-2 font-display text-2xl font-bold text-white sm:text-3xl">
                   {EDUCATION.degree}

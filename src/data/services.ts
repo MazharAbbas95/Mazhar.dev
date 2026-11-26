@@ -17,12 +17,12 @@ export interface VisionStage {
 
 export const SERVICES: ServiceItem[] = [
   {
-    id: 'frontend-development',
+    id: 'full-stack-development',
     index: '01',
-    title: 'Frontend Development',
+    title: 'Full Stack Development',
     summary:
-      'Building responsive, modern, user-friendly web interfaces using modern frontend technologies.',
-    capabilities: ['React & Angular Interfaces', 'Responsive Layouts', 'Accessible UI Systems', 'Interactive Animations'],
+      'Building responsive, modern, user-friendly web interfaces using modern full stack technologies.',
+    capabilities: ['React & Angular', 'MySQL', 'PostgreSQL', 'Node.js', 'Express.js', 'REST APIs', 'TypeScript'],
     focusLabel: 'Current Capability',
   },
   {
