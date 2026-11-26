@@ -53,7 +53,7 @@ export const PROJECTS: ProjectItem[] = [
     filterCategories: ['SaaS', 'Web Development', 'Business Software'],
     description:
       'A multi-tenant automotive repair platform concept designed to support digital operations for auto repair businesses.',
-    liveUrl: 'https://byflow-ilac.vercel.app/',
+    liveUrl: 'https://byflow-lilac.vercel.app/',
     featuredBadge: 'Multi-Tenant Architecture',
     architectureNote: 'Designed around multi-tenant software architecture separating independent auto repair business workspaces.',
     domainLabel: 'byflow-ilac.vercel.app',
