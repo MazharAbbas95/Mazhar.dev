@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Unbounded", "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Montserrat", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-obsidian: #050508;
+  --color-obsidian-elevated: #090714;
+  --color-obsidian-card: #0f0b1c;
+  --color-violet-accent: #9B5CFF;
+  --color-violet-soft: #C084FC;
+  --color-slate-muted: #A5A1B2;
+  --color-hairline: #292338;
+}
+
+@layer base {
+  html {
+    background-color: #050508;
+    color: #ffffff;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: #050508;
+    color: #ffffff;
+    overflow-x: hidden;
+    letter-spacing: 0.005em;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Signature reference video atmospheric purple glowing blobs */
+.home__shadow {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  background-color: hsla(255, 60%, 64%, 0.28);
+  border-radius: 50%;
+  filter: blur(140px);
+  pointer-events: none;
+}
+
+.about__shadow {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  background-color: hsla(255, 60%, 64%, 0.24);
+  border-radius: 50%;
+  filter: blur(130px);
+  pointer-events: none;
+}
+
+.blob-animate {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, #9B5CFF 0%, rgba(124, 58, 237, 0.45) 50%, transparent 75%);
+  border-radius: 50%;
+  filter: blur(55px);
+  z-index: 1;
+  animation: blobPulse 5s ease-in-out infinite alternate;
+}
+
+@keyframes blobPulse {
+  0% {
+    transform: scale(0.92) translate(-50%, -50%);
+    opacity: 0.65;
+  }
+  50% {
+    transform: scale(1.12) translate(-48%, -52%);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(0.96) translate(-50%, -50%);
+    opacity: 0.75;
+  }
+}
+
+.violet-aura {
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(155, 92, 255, 0.38) 0%,
+    rgba(124, 58, 237, 0.18) 45%,
+    rgba(5, 5, 8, 0) 74%
+  );
+}
+
+.violet-card-glow {
+  background: radial-gradient(
+    115% 115% at 100% 100%,
+    rgba(155, 92, 255, 0.22) 0%,
+    rgba(124, 58, 237, 0.08) 42%,
+    rgba(15, 11, 28, 0) 75%
+  );
+}
+
+.violet-button-glow {
+  box-shadow:
+    0 0 28px rgba(155, 92, 255, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+.violet-button-glow:hover {
+  box-shadow:
+    0 0 38px rgba(155, 92, 255, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.32);
+}
+
+.text-gradient-violet {
+  background: linear-gradient(135deg, #C084FC 0%, #9B5CFF 50%, #E9D5FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050508;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292338;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9B5CFF;
+}

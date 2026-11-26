@@ -1,0 +1,28 @@
+export const PROFILE = {
+  brandMark: 'MAZHAR.',
+  fullName: 'Mazhar Abbas',
+  greeting: "Hello, I'm",
+  titleLeft: 'Software',
+  titleAccent: 'Frontend',
+  titleRight: 'Developer',
+  roleHeadline: 'Software Developer',
+  tagline: 'Building Software. Exploring Intelligence.',
+  subTagline: 'From modern web applications to intelligent, data-driven systems.',
+  heroDescription:
+    'Software Developer and Computer Science student building high-performance web applications, scalable platforms, and exploring Machine Learning & Agentic AI.',
+  location: 'Multan, Punjab, Pakistan',
+  email: 'mazharabbasawan95@gmail.com',
+  github: 'https://github.com/MazharAbbas95',
+  linkedin: 'https://linkedin.com/in/mazharabbas95',
+  whatsapp: 'https://wa.me/923000000000',
+  portraitSrc: '/images/profile/mazhar-hero-studio.jpg',
+  portraitAlt: 'Mazhar Abbas — Software Developer and Frontend Engineer',
+  aboutParagraphs: [
+    "I'm Mazhar Abbas, a software developer and fifth-semester Computer Science student at Muhammad Nawaz Sharif University of Agriculture, Multan.",
+    'My development journey spans modern frontend engineering, backend architectures, desktop application development, and data analysis.',
+    'I transform complex real-world requirements into clean, practical software solutions — developing enterprise logistics portals, multi-tenant automotive platforms, and educational technologies.',
+    'Currently, I am working at AHL Technologies as a Frontend Developer, with earlier experience in Product Research Engineering.',
+    'Alongside software engineering, I actively explore data science, machine learning algorithms, deep learning representations, and autonomous agentic workflows.',
+    'My long-term ambition is to become a Data Scientist and build intelligent, transformative computing systems.',
+  ],
+} as const;

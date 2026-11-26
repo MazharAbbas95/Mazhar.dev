@@ -1,0 +1,1369 @@
+# MASTER PROMPT — MAZHAR ABBAS | PREMIUM DEVELOPER PORTFOLIO
+
+## 1. YOUR ROLE AND RESPONSIBILITIES
+
+Act as a Senior UI/UX Designer, Creative Frontend Engineer, Software Architect, Animation Specialist, and QA Engineer with extensive experience building premium personal portfolios for software engineers, product developers, and AI professionals.
+
+Your assignment is to design and develop a complete, production-quality personal portfolio website for **Mazhar Abbas**.
+
+You are not being asked to create a generic developer portfolio.
+
+You must carefully study the reference video and use its visual language, design composition, interaction patterns, layout, animations, and overall experience as the primary design inspiration.
+
+You have been provided with two important visual assets:
+
+1. **Reference Video:** A complete screen recording of an existing portfolio website. Analyze it carefully before implementation.
+2. **Personal Photograph:** An image provided separately for use in the portfolio. Use this actual photograph in the hero section and other appropriate locations.
+
+Both assets are essential requirements.
+
+Do not ignore them, replace them with generic alternatives, or make assumptions about their contents.
+
+---
+
+# 2. PROJECT OBJECTIVE
+
+Build a premium, modern, visually impressive, fully responsive personal portfolio website that communicates the professional identity of:
+
+**Mazhar Abbas**
+
+Professional designation:
+
+Software Developer | Frontend Engineer | AI & Data Science Enthusiast
+
+Current professional position:
+
+Frontend Developer at AHL Technologies.
+
+Current education:
+
+BS Computer Science — Fifth Semester.
+
+University:
+
+Muhammad Nawaz Sharif University of Agriculture, Multan, Pakistan.
+
+Long-term career objective:
+
+Become a professional Data Scientist and develop expertise in Machine Learning, Deep Learning, and Agentic AI.
+
+### Core website objective
+
+The website must accomplish five things:
+
+1. Establish a strong professional identity.
+2. Demonstrate practical software development experience through real projects.
+3. Showcase technical skills and professional achievements.
+4. Communicate career progression toward Data Science and Artificial Intelligence.
+5. Make it easy for recruiters, clients, developers, and collaborators to contact me.
+
+The overall experience should feel like a premium personal brand, not a student assignment.
+
+---
+
+# 3. REFERENCE VIDEO ANALYSIS — MANDATORY FIRST STEP
+
+Before writing any code, inspect the provided reference video from beginning to end.
+
+Do not start implementation immediately.
+
+First, extract its design system and website architecture.
+
+Analyze the following elements:
+
+### A. Visual identity
+
+- Background colors.
+- Primary and secondary accent colors.
+- Typography and font hierarchy.
+- Heading sizes and weights.
+- Body text styling.
+- Button designs.
+- Border radius.
+- Card appearance.
+- Shadows and glowing effects.
+- Gradients.
+- Section backgrounds.
+- Spacing and alignment.
+- Overall visual balance.
+
+### B. Layout and composition
+
+Study:
+
+- Navbar positioning.
+- Logo placement.
+- Hero section structure.
+- Text and image positioning.
+- Portrait dimensions and shape.
+- Section widths.
+- Content alignment.
+- Project grid arrangement.
+- Card proportions.
+- Timeline layout.
+- Contact section composition.
+- Footer arrangement.
+
+### C. Animations and interactions
+
+Identify and reproduce the applicable visual behavior:
+
+- Entrance animations.
+- Scroll-triggered animations.
+- Hover effects.
+- Button interactions.
+- Glowing elements.
+- Mouse-following effects, if present.
+- Text transitions.
+- Navigation transitions.
+- Project card animations.
+- Section reveal effects.
+
+### D. Website section order
+
+Extract the exact section sequence from the reference.
+
+Use its architecture as the foundation. You may add sections necessary to represent my professional background, but do not unnecessarily replace its overall structure.
+
+### Important design rule
+
+The final website must visibly resemble the supplied reference video.
+
+Do not simply use a black background and purple buttons and claim that the design has been followed.
+
+Study the actual visual composition and reproduce its recognizable design characteristics.
+
+Do not copy unrelated personal content, branding, identity, or proprietary assets from the reference. Reproduce the visual approach using my own identity and information.
+
+If a particular visual detail cannot be determined from the video, use professional judgment without inventing that it was present.
+
+---
+
+# 4. PERSONAL BRAND IDENTITY
+
+Create a consistent visual identity around my name.
+
+**Brand name:** MAZHAR ABBAS
+
+**Brand positioning:**
+
+A software developer who builds practical software solutions and explores the intersection of software engineering, data science, and artificial intelligence.
+
+**Suggested tagline:**
+
+"Building Software. Exploring Intelligence."
+
+Alternative supporting statement:
+
+"From modern web applications to intelligent, data-driven systems."
+
+### Recommended visual direction
+
+Use the actual design language extracted from the video.
+
+If the video confirms the dark purple aesthetic, preserve the following approximate palette:
+
+| Element | Color |
+|---|---|
+| Main background | #050508 |
+| Secondary background | #0D0B14 |
+| Primary accent | #9B5CFF |
+| Secondary accent | #C084FC |
+| Primary text | #FFFFFF |
+| Secondary text | #A5A1B2 |
+| Borders | #292333 |
+| Card background | #100D18 |
+
+These values are starting references, not permission to ignore the actual video.
+
+### Typography
+
+Prefer:
+
+- Space Grotesk for headings.
+- Inter for body text.
+- JetBrains Mono for technical labels.
+
+Use appropriate font sizes, line heights, weights, and responsive scaling.
+
+Avoid excessive font variations.
+
+---
+
+# 5. NAVIGATION BAR
+
+Create a clean, premium navigation bar.
+
+### Brand
+
+Display:
+
+MAZHAR.
+
+### Navigation links
+
+- Home
+- About
+- Skills
+- Projects
+- Experience
+- Achievements
+- Contact
+
+### Navigation functionality
+
+- Smooth scrolling to sections.
+- Active section highlighting.
+- Responsive mobile navigation.
+- Animated mobile menu.
+- Proper keyboard accessibility.
+- Close mobile menu after selecting a section.
+- Navbar should remain readable when scrolling.
+- Use the visual treatment found in the reference video.
+
+Add a prominent Contact Me button if consistent with the reference.
+
+---
+
+# 6. HERO SECTION — MOST IMPORTANT
+
+The hero section must create a strong first impression.
+
+Use my provided photograph as the main visual element.
+
+### Personal information
+
+Small introductory label:
+
+HELLO, I'M
+
+Main heading:
+
+MAZHAR ABBAS
+
+Professional title:
+
+Software Developer
+
+Supporting headline:
+
+Building Software. Exploring Intelligence.
+
+### Hero description
+
+"I am a software developer and fifth-semester Computer Science student at Muhammad Nawaz Sharif University of Agriculture, Multan. I build modern web applications, develop practical software solutions, and explore data-driven technologies. Currently working as a Frontend Developer at AHL Technologies while expanding my knowledge of Machine Learning, Deep Learning, and Agentic AI."
+
+### Hero visual
+
+Use the supplied personal photograph.
+
+Requirements:
+
+- Preserve my original facial identity.
+- Do not replace my photograph with a stock image.
+- Do not generate a different person.
+- Use a professional crop and positioning.
+- Preserve natural proportions.
+- Apply background removal only if necessary and if the supplied image supports it.
+- Add ambient lighting and visual effects consistent with the reference.
+- Ensure the photograph looks integrated into the composition rather than placed randomly.
+- Use appropriate object-fit and responsive positioning.
+
+### Hero buttons
+
+Primary:
+
+"Explore My Work"
+
+Action: Scroll to Projects.
+
+Secondary:
+
+"Download Resume"
+
+Action: Download the actual resume PDF when supplied. Until then, use a clearly identified placeholder or omit the active download action.
+
+### Social links
+
+Include:
+
+- GitHub
+- LinkedIn
+- Email
+
+Use these destinations:
+
+GitHub: https://github.com/MazharAbbas95
+
+LinkedIn: https://linkedin.com/in/mazharabbas95
+
+Email: mazharabbasawan95@gmail.com
+
+Do not invent social accounts or URLs.
+
+---
+
+# 7. ABOUT ME SECTION
+
+Section heading:
+
+"More Than Just Writing Code."
+
+Subtitle:
+
+"Engineering solutions through curiosity, creativity, and continuous learning."
+
+### Complete About Me content
+
+"I'm Mazhar Abbas, a software developer and currently a fifth-semester Computer Science student at Muhammad Nawaz Sharif University of Agriculture, Multan.
+
+My development journey includes frontend engineering, backend programming, desktop application development, and data analysis.
+
+I enjoy transforming real-world problems into practical software solutions. My work includes developing business platforms, transportation management systems, multi-tenant applications, and educational technology solutions.
+
+Currently, I am working at AHL Technologies as a Frontend Developer. Before transitioning into my current responsibilities, I spent approximately three to four months working in Product Research Engineering at the same organization.
+
+Alongside software development, I am expanding my knowledge of data science, machine learning, deep learning, and advanced AI systems.
+
+My long-term ambition is to become a Data Scientist and contribute to the development of intelligent, data-driven applications."
+
+### About section requirements
+
+- Use an appropriate image or visual composition.
+- Highlight important phrases.
+- Add subtle animated statistics only when verified.
+- Include a Download Resume action when the real file is available.
+- Keep the text readable.
+- Avoid excessively long paragraphs.
+
+Do not invent years of experience, client counts, project counts, or employment statistics.
+
+---
+
+# 8. TECHNICAL SKILLS SECTION
+
+Create a visually appealing technical skills section.
+
+Organize skills into clear categories.
+
+Do not represent every technology as an expert-level skill.
+
+### Category 1 — Frontend Development
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Angular
+
+### Category 2 — Programming and Backend
+
+- C
+- C++
+- Python
+- REST APIs
+- Data Structures and Algorithms
+- Qt
+
+### Category 3 — Data Science and Data Analysis
+
+- NumPy
+- Pandas
+- Matplotlib
+- Linear Regression
+- Data Analysis
+
+### Category 4 — Artificial Intelligence
+
+Currently learning and exploring:
+
+- Deep Learning
+- Advanced AI
+- Agentic AI
+- Data Science
+
+### Design requirements
+
+Use the skill presentation style inspired by the reference.
+
+Possible elements:
+
+- Animated skill cards.
+- Technology icons.
+- Category labels.
+- Subtle hover effects.
+- Clean grids.
+- Purple gradient lighting.
+
+Clearly distinguish established skills from technologies currently being learned.
+
+Do not invent skill percentages, proficiency scores, or years of experience.
+
+---
+
+# 9. PROJECTS SECTION — MAIN PORTFOLIO SHOWCASE
+
+This is one of the most important sections.
+
+My projects represent practical development experience. Give them significant visual prominence.
+
+Section heading:
+
+"Things I've Built."
+
+Subtitle:
+
+"Real-world ideas transformed into functional digital experiences."
+
+Create premium project cards inspired by the reference video.
+
+Each project card should support:
+
+- Project screenshot.
+- Project title.
+- Description.
+- Technology tags.
+- Project category.
+- Live demo link.
+- GitHub link, when available.
+- Attractive hover animation.
+- Clear visual hierarchy.
+
+Use actual project screenshots if available.
+
+Do not substitute generic AI-generated pictures for real screenshots in the final implementation.
+
+If screenshots are not provided, create elegant placeholders that can be replaced later.
+
+## PROJECT 01 — MADAD LOGISTIC CONTAINER SERVICES (TMS)
+
+Project name:
+
+Madad Logistic Container Services
+
+Project category:
+
+Transport Management System / Logistics Software
+
+Live URL:
+
+https://madad-logistic-container-services-eta.vercel.app
+
+Description:
+
+"A digital logistics and transportation platform designed to support transport business operations and provide an organized online experience."
+
+Highlight this project as an important business-oriented software project.
+
+## PROJECT 02 — BYFLOW
+
+Project name:
+
+Byflow — Multi-Tenant Auto Repair Platform
+
+Live URL:
+
+https://byflow-ilac.vercel.app/
+
+Category:
+
+SaaS / Multi-Tenant Platform
+
+Description:
+
+"A multi-tenant automotive repair platform concept designed to support digital operations for auto repair businesses."
+
+Emphasize multi-tenant software architecture in its presentation.
+
+Do not claim specific features that have not been verified.
+
+## PROJECT 03 — ALI IMRAN GOODS TRANSPORT NETWORK
+
+Live URL:
+
+https://aliimrangoodstransportnetwork.com/
+
+Category:
+
+Business Website / Transportation
+
+Description:
+
+"A digital platform for a goods transportation business, presenting its transportation services and business identity online."
+
+## PROJECT 04 — KAVUMI MATCHA
+
+Live URL:
+
+https://kavumi-matcha.vercel.app/
+
+Category:
+
+Premium Brand / E-commerce
+
+Description:
+
+"A premium digital brand experience for a matcha business, focusing on modern presentation and e-commerce-oriented design."
+
+Use the correct spelling:
+
+Kavumi Matcha.
+
+## PROJECT 05 — EDU MATCH PRO
+
+Live URL:
+
+https://edu-match-pro.vercel.app/
+
+Category:
+
+Education Technology
+
+Description:
+
+"An educational and career preparation platform designed to support students in exploring learning opportunities and preparing for academic pathways."
+
+## PROJECT 06 — NEON INVADERS SYNTH PLAYER
+
+Live URL:
+
+https://neon-invaders-synth-player.vercel.app/
+
+Category:
+
+Interactive Digital Application
+
+Description:
+
+"A visually distinctive neon-inspired digital project combining an interactive interface with a futuristic aesthetic."
+
+## PROJECT 07 — LEARN MATRIX
+
+GitHub:
+
+https://github.com/webiiix/Learn-Matrix
+
+Category:
+
+Educational Software
+
+Description:
+
+"A learning-focused software project designed around an organized digital learning experience."
+
+Use the actual GitHub repository for project information where accessible.
+
+## PROJECT 08 — FLOW LOGISTICS SERVICES
+
+Live URL:
+
+https://flow-logistics-services.vercel.app/
+
+Category:
+
+Logistics / Business Platform
+
+Description:
+
+"A logistics-oriented digital platform presenting transportation and business services."
+
+## PROJECT 09 — RESILINET AI
+
+Category:
+
+Artificial Intelligence / Disaster Awareness
+
+Description:
+
+"An AI-focused disaster awareness and response application."
+
+Present this as an AI-oriented project.
+
+Do not invent a public URL. Show a project details button only if an actual details page or source repository exists.
+
+## PROJECT 10 — GOODS TRANSPORT CUSTOM SOFTWARE
+
+Category:
+
+Custom Business Software / Transportation Management
+
+Description:
+
+"Custom software developed around goods transportation business operations."
+
+Do not invent a demo URL or claim unsupported technical features.
+
+### Project organization
+
+Create project categories such as:
+
+- All
+- Web Development
+- SaaS
+- Business Software
+- AI & Data
+
+Implement working category filters.
+
+### Project interactions
+
+- Project cards should have smooth hover transitions.
+- Buttons must open the correct destinations.
+- External links should open in a new tab with appropriate security attributes.
+- Project screenshots should have consistent proportions.
+- Use lazy loading where appropriate.
+- Do not create fake GitHub buttons.
+
+### Important
+
+The project section must not be a generic collection of cards.
+
+Make it visually rich, polished, and consistent with the reference video.
+
+---
+
+# 10. PROFESSIONAL EXPERIENCE SECTION
+
+Section heading:
+
+"Where I've Worked."
+
+Create a professional timeline inspired by the reference video.
+
+### EXPERIENCE 01
+
+Organization:
+
+AHL Technologies
+
+Position:
+
+Frontend Developer
+
+Status:
+
+Currently Working
+
+Description:
+
+"Currently working as a Frontend Developer, contributing to frontend development and modern user interface implementation."
+
+### EXPERIENCE 02
+
+Organization:
+
+AHL Technologies
+
+Position:
+
+Product Research Engineer
+
+Duration:
+
+Previous approximately three to four months.
+
+Description:
+
+"Worked in product research engineering, exploring product requirements, researching technical possibilities, and contributing to product-oriented problem analysis."
+
+### Design requirements
+
+- Vertical timeline.
+- Timeline markers.
+- Organization and position labels.
+- Animated timeline reveal.
+- Consistent date presentation.
+
+Do not invent exact employment start dates or end dates.
+
+---
+
+# 11. EDUCATION SECTION
+
+Section heading:
+
+"My Academic Journey."
+
+Education:
+
+Bachelor of Science in Computer Science (BSCS)
+
+Institution:
+
+Muhammad Nawaz Sharif University of Agriculture, Multan, Pakistan.
+
+Current semester:
+
+Fifth Semester.
+
+Status:
+
+Currently Pursuing.
+
+Create a visually attractive education card or timeline.
+
+Do not invent graduation dates, GPA, or academic awards.
+
+---
+
+# 12. ACHIEVEMENTS AND RECOGNITION
+
+Section heading:
+
+"Milestones & Recognition."
+
+Create a visually engaging section using cards, badges, or a timeline.
+
+Include all of the following:
+
+### Achievement 01 — AI Seekho 2026
+
+- Participated in AI Seekho 2026.
+- Winner of the first stage.
+- Advanced to the second stage.
+- Participated in the final stage.
+
+Mention the achievement accurately without claiming an overall competition championship.
+
+### Achievement 02 — Aspire Leadership Program
+
+- Participated in the Aspire Leadership Program provided by Harvard University.
+- Achieved third position.
+
+Use the exact program name and avoid implying that I attended Harvard University as a degree student.
+
+### Achievement 03 — MUST Expo
+
+- Participated in MUST Expo.
+- Event held at MUST University, Multan.
+
+### Achievement 04 — Loop Lab Competition
+
+- Participated in the Loop Lab competition.
+- Event held at UMT University, Lahore.
+
+### Achievement 05 — University Coding Competition
+
+- Participated in a coding competition.
+- Event held at Muhammad Nawaz Sharif University of Agriculture, Multan.
+
+### Achievement presentation
+
+Use:
+
+- Achievement cards.
+- Event titles.
+- Short descriptions.
+- Certificate images when supplied.
+- Event photographs when supplied.
+
+Do not fabricate certificates, medals, positions, or rankings.
+
+---
+
+# 13. SERVICES / WHAT I CAN DO
+
+Section heading:
+
+"What I Bring to the Table."
+
+Create four professional service cards.
+
+### 01 — Frontend Development
+
+Building responsive, modern, user-friendly web interfaces using modern frontend technologies.
+
+### 02 — Software Development
+
+Developing practical software solutions using programming languages and application development technologies.
+
+### 03 — Data Analysis
+
+Working with datasets, data processing, analysis, and visualization using Python-based tools.
+
+### 04 — AI and Machine Learning Exploration
+
+Exploring machine learning concepts, predictive modeling, deep learning, and intelligent application development.
+
+Present these as current capabilities and areas of development, not as unsupported claims of professional specialization.
+
+---
+
+# 14. CAREER VISION / CURRENT LEARNING
+
+Add a distinctive section communicating my professional direction.
+
+Heading:
+
+"Always Learning. Always Building."
+
+Content:
+
+"Software development is my foundation, but my curiosity extends beyond traditional application development. I am actively developing my understanding of Data Science, Machine Learning, Deep Learning, and Agentic AI."
+
+Show a simple visual progression:
+
+Software Engineering → Data Analysis → Machine Learning → Deep Learning → Agentic AI
+
+The visual should communicate my learning direction, not suggest that I have already mastered every stage.
+
+Use an elegant roadmap or animated progression graphic.
+
+---
+
+# 15. TESTIMONIALS
+
+Include a testimonials section only if genuine feedback is provided.
+
+Potential sources:
+
+- AHL Technologies colleagues.
+- Supervisors.
+- Project clients.
+- Academic mentors.
+
+Do not create fictional people, profile pictures, testimonials, job titles, or endorsements.
+
+If no genuine testimonials are available, either:
+
+1. Hide the section; or
+2. Use a professional "Let's Work Together" section instead.
+
+Never populate the website with fabricated testimonials.
+
+---
+
+# 16. CONTACT SECTION
+
+Section heading:
+
+"Let's Build Something Meaningful."
+
+Supporting text:
+
+"Have an idea, a project, or an opportunity? Let's connect and explore how we can build something valuable together."
+
+### Contact information
+
+Name:
+
+Mazhar Abbas
+
+Location:
+
+Multan, Punjab, Pakistan.
+
+Email:
+
+mazharabbasawan95@gmail.com
+
+GitHub:
+
+https://github.com/MazharAbbas95
+
+LinkedIn:
+
+https://linkedin.com/in/mazharabbas95
+
+### Contact form
+
+Build a fully functional contact form with:
+
+- Full Name
+- Email Address
+- Subject
+- Message
+- Send Message button
+
+Requirements:
+
+- Form validation.
+- Required field validation.
+- Valid email format.
+- Loading state.
+- Success message.
+- Error handling.
+- Spam protection where supported.
+
+Integrate a real email service or backend API.
+
+Do not display a fake successful submission if the backend has not accepted the message.
+
+If email credentials or backend configuration are unavailable, create the integration structure and document the required environment variables.
+
+Also provide an email contact link.
+
+---
+
+# 17. FOOTER
+
+Create a premium minimal footer.
+
+Include:
+
+- Mazhar Abbas branding.
+- Short professional description.
+- Navigation links.
+- GitHub.
+- LinkedIn.
+- Email.
+- Copyright year generated dynamically.
+
+Suggested footer text:
+
+"Designed and developed by Mazhar Abbas."
+
+Use the visual treatment of the reference video.
+
+---
+
+# 18. ANIMATIONS AND INTERACTION SYSTEM
+
+The website must feel polished and interactive without compromising performance.
+
+Use Framer Motion or an appropriate animation library.
+
+Implement:
+
+### Hero animations
+
+- Text entrance animation.
+- Portrait reveal.
+- Subtle floating or ambient motion where appropriate.
+- Animated accent elements.
+- Smooth button hover transitions.
+
+### Navigation animations
+
+- Active navigation state.
+- Mobile menu transition.
+- Smooth scrolling.
+
+### Project animations
+
+- Card hover elevation.
+- Border glow.
+- Image zoom.
+- Button transitions.
+- Category filter transitions.
+
+### Scroll animations
+
+- Section entrance.
+- Fade and translate effects.
+- Timeline reveal.
+- Staggered card animations.
+
+### Background effects
+
+If consistent with the video:
+
+- Purple ambient gradients.
+- Subtle glowing orbs.
+- Soft radial lighting.
+- Minimal particles or moving decorative elements.
+
+Do not overload the site with animation.
+
+Avoid:
+
+- Excessive particles.
+- Unnecessary cursor replacement.
+- Heavy animation libraries.
+- Constant movement that distracts from reading.
+- Animations that interfere with accessibility.
+
+Respect the user's reduced-motion preferences.
+
+---
+
+# 19. TECHNICAL IMPLEMENTATION REQUIREMENTS
+
+Use the following recommended technology stack:
+
+### Core
+
+- React
+- TypeScript
+- Vite
+
+### Styling
+
+- Tailwind CSS
+- Custom CSS for advanced effects when necessary.
+
+### Animation
+
+- Framer Motion.
+
+### Icons
+
+- Lucide React.
+
+### Forms
+
+- EmailJS or a proper backend integration.
+
+### Deployment
+
+- Vercel-compatible production build.
+
+If an existing project already has a working framework and configuration, inspect it first and preserve compatible dependencies rather than unnecessarily rebuilding it.
+
+### Code quality
+
+- Component-based architecture.
+- Reusable components.
+- Strong TypeScript typing.
+- Clean folder organization.
+- Reusable data structures.
+- Separation of content and presentation.
+- Maintainable CSS.
+- No unnecessary dependencies.
+- No duplicated components.
+- No placeholder code in completed functionality.
+
+---
+
+# 20. SUGGESTED PROJECT STRUCTURE
+
+Organize the project professionally.
+
+mazhar-portfolio/
+
+├── public/
+│   ├── images/
+│   │   ├── profile/
+│   │   └── projects/
+│   ├── certificates/
+│   ├── icons/
+│   └── resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── ProjectCard.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Education.tsx
+│   │   ├── Achievements.tsx
+│   │   ├── Services.tsx
+│   │   ├── CareerVision.tsx
+│   │   ├── Testimonials.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── data/
+│   │   ├── projects.ts
+│   │   ├── skills.ts
+│   │   ├── experience.ts
+│   │   └── achievements.ts
+│   │
+│   ├── hooks/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── .env.example
+├── package.json
+└── README.md
+
+You may modify this structure when technically justified.
+
+---
+
+# 21. RESPONSIVE DESIGN REQUIREMENTS
+
+The website must work correctly on:
+
+- Large desktop screens.
+- Standard laptops.
+- Tablets.
+- Mobile phones.
+- Small mobile screens.
+
+### Desktop
+
+- Follow the reference composition.
+- Maintain balanced whitespace.
+- Use large, impactful typography.
+- Keep project cards visually consistent.
+
+### Tablet
+
+- Adjust grids and spacing.
+- Prevent overlapping elements.
+- Maintain readable typography.
+
+### Mobile
+
+- Use a proper mobile navigation menu.
+- Stack hero content appropriately.
+- Keep the photograph correctly positioned.
+- Use one-column or suitable two-column project layouts.
+- Prevent horizontal scrolling.
+- Ensure buttons are touch-friendly.
+- Keep all text readable.
+
+Do not simply shrink the desktop design. Adapt the layout intelligently.
+
+---
+
+# 22. SEO AND ACCESSIBILITY
+
+Implement:
+
+### SEO
+
+- Page title: Mazhar Abbas | Software Developer & AI Enthusiast
+- Meta description.
+- Open Graph metadata.
+- Relevant headings.
+- Semantic HTML.
+- Descriptive image alt text.
+- Favicon.
+- Canonical URL only when the actual domain is known.
+
+### Accessibility
+
+- Proper heading hierarchy.
+- Keyboard navigation.
+- Accessible forms.
+- Sufficient color contrast.
+- Visible focus indicators.
+- Appropriate ARIA labels.
+- Reduced-motion support.
+- Descriptive button labels.
+
+### Performance
+
+- Optimize images.
+- Lazy-load below-the-fold images.
+- Avoid unnecessary JavaScript.
+- Minimize layout shifts.
+- Use appropriate font loading.
+- Optimize animation performance.
+- Ensure production build succeeds.
+
+---
+
+# 23. FUNCTIONALITY CHECKLIST
+
+Every visible interactive element must actually work.
+
+Verify:
+
+| Feature | Expected behavior |
+|---|---|
+| Logo | Navigate to homepage |
+| Navbar | Navigate to correct sections |
+| Mobile menu | Open and close |
+| Hero CTA | Scroll to projects |
+| Resume button | Download actual PDF when supplied |
+| GitHub | Open correct profile |
+| LinkedIn | Open correct profile |
+| Email | Open email client |
+| Project cards | Display project information |
+| Live project buttons | Open correct URLs |
+| Category filters | Filter projects correctly |
+| Contact form | Submit through real integration |
+| Form validation | Display correct errors |
+| Footer links | Navigate correctly |
+| Scroll animations | Trigger appropriately |
+
+Do not create decorative buttons that do nothing.
+
+Do not create fake links.
+
+Do not claim functionality has been implemented when it has not.
+
+---
+
+# 24. QUALITY ASSURANCE AND FINAL REVIEW
+
+After implementation, perform a complete review.
+
+### Visual QA
+
+Compare the finished website against the supplied reference video.
+
+Check:
+
+- Overall resemblance.
+- Typography.
+- Color palette.
+- Hero composition.
+- Image positioning.
+- Card design.
+- Section spacing.
+- Background effects.
+- Animations.
+- Navigation.
+- Footer.
+
+### Functional QA
+
+Check:
+
+- All internal links.
+- All external links.
+- All project URLs.
+- All navigation interactions.
+- All buttons.
+- All forms.
+- All filters.
+- Mobile navigation.
+
+### Technical QA
+
+- Run the production build.
+- Resolve TypeScript errors.
+- Resolve runtime errors.
+- Check browser console.
+- Check image loading.
+- Check responsive breakpoints.
+- Check accessibility issues.
+- Check page performance.
+
+Do not stop after generating the initial homepage.
+
+Continue until the complete portfolio is implemented and tested.
+
+---
+
+# 25. EXECUTION WORKFLOW
+
+Follow these stages in order.
+
+## Phase 1 — Asset and reference inspection
+
+1. Inspect the provided reference video.
+2. Inspect the provided personal photograph.
+3. Identify the visual design system.
+4. Extract the section architecture.
+5. Identify animations and interactions.
+6. Inspect the existing project environment.
+7. Identify missing assets.
+
+Before coding, create a concise design specification based on the video.
+
+## Phase 2 — Design architecture
+
+1. Establish the design tokens.
+2. Establish typography.
+3. Define reusable components.
+4. Plan responsive layouts.
+5. Plan animations.
+6. Organize project data.
+
+## Phase 3 — Implementation
+
+Build the complete website in the following order:
+
+1. Global styling and design system.
+2. Navigation.
+3. Hero.
+4. About.
+5. Skills.
+6. Projects.
+7. Experience.
+8. Education.
+9. Achievements.
+10. Services.
+11. Career vision.
+12. Testimonials, if genuine data exists.
+13. Contact.
+14. Footer.
+
+## Phase 4 — Functionality
+
+Implement:
+
+- Navigation.
+- Smooth scrolling.
+- Project filtering.
+- External links.
+- Contact form integration.
+- Resume download.
+- Responsive mobile menu.
+- Animation interactions.
+
+## Phase 5 — Testing and refinement
+
+1. Compare with the reference video.
+2. Fix visual inconsistencies.
+3. Test mobile and desktop.
+4. Test all interactions.
+5. Fix build and runtime errors.
+6. Optimize images and performance.
+7. Verify production readiness.
+
+## Phase 6 — Final delivery
+
+Provide:
+
+- Complete source code.
+- Project folder structure.
+- Installation instructions.
+- Environment variable documentation.
+- Contact form configuration instructions.
+- Build and deployment instructions.
+- List of assets still required, if any.
+- Summary of implemented features.
+
+---
+
+# 26. STRICT RULES — DO NOT VIOLATE
+
+1. Do not ignore the supplied reference video.
+2. Do not create a generic portfolio unrelated to the reference.
+3. Do not ignore my provided personal photograph.
+4. Do not replace my face with AI-generated faces.
+5. Do not invent employment dates.
+6. Do not invent academic results.
+7. Do not fabricate achievements.
+8. Do not fabricate testimonials.
+9. Do not invent project URLs.
+10. Do not claim expertise in technologies that I am currently learning.
+11. Do not create fake project screenshots and present them as actual application screenshots.
+12. Do not use placeholder text in the completed portfolio.
+13. Do not create buttons without functionality.
+14. Do not leave broken navigation links.
+15. Do not sacrifice mobile responsiveness for desktop appearance.
+16. Do not overload the website with animations.
+17. Do not remove important information about my projects or professional background.
+18. Do not stop at a design mockup; implement the actual functioning website.
+
+If required information or assets are missing, use a clearly identified placeholder and report exactly what is needed. Do not invent the missing information.
+
+---
+
+# 27. FINAL EXPECTED RESULT
+
+The final deliverable should be a premium, visually impressive, responsive, fully functional portfolio website for Mazhar Abbas.
+
+It should communicate:
+
+- A professional software developer.
+- Practical software engineering experience.
+- Frontend development capabilities.
+- Programming and backend knowledge.
+- Real-world project development.
+- Data analysis and machine learning foundations.
+- Active exploration of advanced AI.
+- Competition and leadership achievements.
+- A clear long-term direction toward Data Science.
+
+Most importantly:
+
+**The final website should preserve the visual identity and distinctive design language of the supplied reference video while replacing its content with my complete personal and professional identity.**
+
+It should feel like a carefully designed professional portfolio, not an automatically generated template.
+
+Your goal is to deliver a portfolio that I can confidently share with recruiters, technology companies, potential clients, developers, and professional collaborators.
+
+**Start by inspecting the provided reference video and photograph. Then execute the complete workflow. Do not skip the analysis stage.**

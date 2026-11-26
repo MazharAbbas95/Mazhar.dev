@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_ali" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0817"/>
+      <stop offset="100%" stop-color="#181133"/>
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#bg_ali)"/>
+  <!-- Top App Bar -->
+  <rect x="25" y="20" width="550" height="40" rx="8" fill="#130d2a" stroke="#2c1e54" stroke-width="1"/>
+  <circle cx="45" cy="40" r="4" fill="#ef4444"/>
+  <circle cx="60" cy="40" r="4" fill="#eab308"/>
+  <circle cx="75" cy="40" r="4" fill="#22c55e"/>
+  <text x="100" y="44" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12" font-weight="800">ALI IMRAN GOODS TRANSPORT</text>
+  <text x="510" y="44" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="11">Fleet Online ●</text>
+
+  <!-- Hero Banner inside software -->
+  <rect x="25" y="72" width="550" height="130" rx="10" fill="#1e1442" stroke="#3b2772" stroke-width="1"/>
+  <text x="50" y="110" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="800">Nationwide Cargo &amp; Heavy Freight Network</text>
+  <text x="50" y="132" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="12">Connecting Karachi, Multan, Lahore, Faisalabad &amp; Rawalpindi</text>
+
+  <rect x="50" y="152" width="140" height="32" rx="6" fill="url(#purpleGradient)"/>
+  <text x="120" y="172" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Book Heavy Freight</text>
+
+  <rect x="205" y="152" width="120" height="32" rx="6" fill="#130d2a" stroke="#4c3490" stroke-width="1"/>
+  <text x="265" y="172" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Track Consignment</text>
+
+  <!-- 3 Service Columns -->
+  <rect x="25" y="215" width="170" height="135" rx="8" fill="#140e2e" stroke="#2d1e57" stroke-width="1"/>
+  <text x="40" y="244" fill="#a855f7" font-family="system-ui, sans-serif" font-size="18">🚛</text>
+  <text x="40" y="270" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Full Truckload (FTL)</text>
+  <text x="40" y="290" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Dedicated multi-axle freight trailers across Pakistan.</text>
+
+  <rect x="215" y="215" width="170" height="135" rx="8" fill="#140e2e" stroke="#2d1e57" stroke-width="1"/>
+  <text x="230" y="244" fill="#a855f7" font-family="system-ui, sans-serif" font-size="18">📦</text>
+  <text x="230" y="270" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Less Than Truckload</text>
+  <text x="230" y="290" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Cost-effective scheduled parcel consolidation.</text>
+
+  <rect x="405" y="215" width="170" height="135" rx="8" fill="#140e2e" stroke="#2d1e57" stroke-width="1"/>
+  <text x="420" y="244" fill="#a855f7" font-family="system-ui, sans-serif" font-size="18">📍</text>
+  <text x="420" y="270" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">GPS Live Telemetry</text>
+  <text x="420" y="290" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Real-time geo-fenced route monitoring &amp; alerts.</text>
+</svg>

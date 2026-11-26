@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0718"/>
+      <stop offset="100%" stop-color="#140f2b"/>
+    </linearGradient>
+    <linearGradient id="violetG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cardG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1635" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#120d24" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="375" fill="url(#bg)"/>
+  <!-- Ambient background glow -->
+  <circle cx="480" cy="90" r="140" fill="#8b5cf6" opacity="0.18" filter="url(#glow)"/>
+  <circle cx="120" cy="300" r="120" fill="#3b82f6" opacity="0.12" filter="url(#glow)"/>
+  
+  <!-- App Header / Navigation -->
+  <rect x="25" y="20" width="550" height="36" rx="8" fill="#17122c" stroke="#2e2554" stroke-width="1"/>
+  <circle cx="45" cy="38" r="4" fill="#ef4444"/>
+  <circle cx="60" cy="38" r="4" fill="#eab308"/>
+  <circle cx="75" cy="38" r="4" fill="#22c55e"/>
+  <rect x="180" y="27" width="240" height="22" rx="6" fill="#0d091e"/>
+  <text x="300" y="42" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">madad-logistics.app/fleet-tracking</text>
+
+  <!-- Left Stats & Status Card -->
+  <rect x="25" y="70" width="165" height="280" rx="12" fill="url(#cardG)" stroke="#3b2d6a" stroke-width="1"/>
+  <text x="40" y="98" fill="#c084fc" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1">DISPATCH CONTROL</text>
+  <text x="40" y="126" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">148</text>
+  <text x="40" y="142" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Active Containers</text>
+  
+  <rect x="40" y="158" width="135" height="1" fill="#2d2250"/>
+  
+  <rect x="40" y="172" width="135" height="38" rx="8" fill="#231b40"/>
+  <circle cx="56" cy="191" r="5" fill="#22c55e"/>
+  <text x="70" y="188" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PK-KHI-4029</text>
+  <text x="70" y="202" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="9">Port Qasim → Multan</text>
+
+  <rect x="40" y="218" width="135" height="38" rx="8" fill="#231b40"/>
+  <circle cx="56" cy="237" r="5" fill="#a855f7"/>
+  <text x="70" y="234" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PK-LHR-8812</text>
+  <text x="70" y="248" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="9">Lahore Dry Port [Customs]</text>
+
+  <rect x="40" y="264" width="135" height="38" rx="8" fill="#231b40"/>
+  <circle cx="56" cy="283" r="5" fill="#eab308"/>
+  <text x="70" y="280" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11" font-weight="600">PK-MUX-1104</text>
+  <text x="70" y="294" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">Freight Terminal Inbound</text>
+
+  <rect x="40" y="312" width="135" height="26" rx="6" fill="url(#violetG)"/>
+  <text x="107" y="329" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">+ New Manifest</text>
+
+  <!-- Right Visual Map & Telemetry Dashboard -->
+  <rect x="202" y="70" width="373" height="280" rx="12" fill="url(#cardG)" stroke="#3b2d6a" stroke-width="1"/>
+  <text x="222" y="98" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Live Logistics Transit Map</text>
+  <text x="222" y="114" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Karachi — Multan — Lahore Freight Corridor</text>
+
+  <!-- Route Line Simulation -->
+  <path d="M 235 290 Q 280 240 330 200 T 430 160 T 520 130" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="6,4"/>
+  <circle cx="235" cy="290" r="7" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+  <text x="235" y="312" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Karachi Port</text>
+
+  <circle cx="330" cy="200" r="9" fill="#a855f7" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="330" cy="200" r="16" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.6"/>
+  <text x="330" y="178" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Multan Hub [Live]</text>
+
+  <circle cx="520" cy="130" r="7" fill="#22c55e" stroke="#ffffff" stroke-width="2"/>
+  <text x="520" y="118" fill="#22c55e" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Lahore Station</text>
+
+  <!-- Telemetry Overlay Box -->
+  <rect x="230" y="225" width="318" height="105" rx="8" fill="#120c24" stroke="#2e2354" stroke-width="1"/>
+  <text x="246" y="247" fill="#c084fc" font-family="system-ui, sans-serif" font-size="10" font-weight="700">CONTAINER TELEMETRY &amp; ETA</text>
+  
+  <rect x="246" y="260" width="85" height="55" rx="6" fill="#1a1236"/>
+  <text x="254" y="278" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">SPEED</text>
+  <text x="254" y="298" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="16" font-weight="700">74 km/h</text>
+
+  <rect x="341" y="260" width="95" height="55" rx="6" fill="#1a1236"/>
+  <text x="349" y="278" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">REMAINING</text>
+  <text x="349" y="298" fill="#a855f7" font-family="system-ui, sans-serif" font-size="16" font-weight="700">182 km</text>
+
+  <rect x="446" y="260" width="92" height="55" rx="6" fill="#1a1236"/>
+  <text x="454" y="278" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="9">STATUS</text>
+  <text x="454" y="298" fill="#22c55e" font-family="system-ui, sans-serif" font-size="14" font-weight="700">ON TRACK</text>
+</svg>

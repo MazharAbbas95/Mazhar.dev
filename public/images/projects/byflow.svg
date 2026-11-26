@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_by" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b19"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="glow_by" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="375" fill="url(#bg_by)"/>
+  <circle cx="520" cy="120" r="150" fill="#38bdf8" opacity="0.14" filter="url(#glow_by)"/>
+  <circle cx="80" cy="280" r="120" fill="#6366f1" opacity="0.16" filter="url(#glow_by)"/>
+
+  <!-- Top Bar -->
+  <rect x="25" y="20" width="550" height="40" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="45" cy="40" r="4" fill="#ef4444"/>
+  <circle cx="60" cy="40" r="4" fill="#eab308"/>
+  <circle cx="75" cy="40" r="4" fill="#22c55e"/>
+  <!-- Multi-tenant Switcher Pill -->
+  <rect x="100" y="28" width="150" height="24" rx="6" fill="#1e293b"/>
+  <text x="110" y="44" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">🏢 Apex Auto Hub</text>
+  <text x="238" y="44" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">▼</text>
+
+  <!-- Sidebar -->
+  <rect x="25" y="72" width="130" height="280" rx="10" fill="#0d1424" stroke="#1e293b" stroke-width="1"/>
+  <rect x="35" y="86" width="110" height="28" rx="6" fill="url(#blueG)"/>
+  <text x="50" y="104" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700">📊 Repair Bays</text>
+
+  <rect x="35" y="122" width="110" height="24" rx="6" fill="transparent"/>
+  <text x="50" y="138" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">🔧 Work Orders</text>
+
+  <rect x="35" y="154" width="110" height="24" rx="6" fill="transparent"/>
+  <text x="50" y="170" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">📦 Parts Depot</text>
+
+  <rect x="35" y="186" width="110" height="24" rx="6" fill="transparent"/>
+  <text x="50" y="202" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">💳 Invoices</text>
+
+  <rect x="35" y="285" width="110" height="50" rx="6" fill="#1e293b"/>
+  <text x="45" y="304" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">Tenant Tier: PRO</text>
+  <text x="45" y="322" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="9">4 Garages Active</text>
+
+  <!-- Main Work Bays Grid -->
+  <rect x="168" y="72" width="407" height="280" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+  <text x="188" y="100" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="800">Auto Repair Bay Operations</text>
+  <text x="188" y="116" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Real-time status across multi-tenant workshop bays</text>
+
+  <!-- Bay 1 Card -->
+  <rect x="188" y="132" width="180" height="98" rx="8" fill="#131e36" stroke="#253554" stroke-width="1"/>
+  <rect x="200" y="144" width="55" height="18" rx="4" fill="#0284c7"/>
+  <text x="227" y="157" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">BAY #01</text>
+  <rect x="310" y="144" width="48" height="18" rx="4" fill="#166534"/>
+  <text x="334" y="157" fill="#86efac" font-family="system-ui, sans-serif" font-size="9" font-weight="700" text-anchor="middle">In Progress</text>
+  <text x="200" y="182" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">BMW M3 - Transmission</text>
+  <text x="200" y="198" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tech: Harris V. · ETA: 2h 15m</text>
+  <rect x="200" y="210" width="156" height="4" rx="2" fill="#1e293b"/>
+  <rect x="200" y="210" width="115" height="4" rx="2" fill="#38bdf8"/>
+
+  <!-- Bay 2 Card -->
+  <rect x="380" y="132" width="180" height="98" rx="8" fill="#131e36" stroke="#253554" stroke-width="1"/>
+  <rect x="392" y="144" width="55" height="18" rx="4" fill="#0284c7"/>
+  <text x="419" y="157" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">BAY #02</text>
+  <rect x="502" y="144" width="48" height="18" rx="4" fill="#854d0e"/>
+  <text x="526" y="157" fill="#fde047" font-family="system-ui, sans-serif" font-size="9" font-weight="700" text-anchor="middle">Inspecting</text>
+  <text x="392" y="182" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Audi RS6 - Brake Caliper</text>
+  <text x="392" y="198" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tech: David K. · Diagnosis</text>
+  <rect x="392" y="210" width="156" height="4" rx="2" fill="#1e293b"/>
+  <rect x="392" y="210" width="60" height="4" rx="2" fill="#eab308"/>
+
+  <!-- Bottom Analytics Strip -->
+  <rect x="188" y="244" width="372" height="92" rx="8" fill="#111a30" stroke="#1f2d48" stroke-width="1"/>
+  <text x="204" y="268" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11" font-weight="700">TODAY'S SAAS METRICS</text>
+  
+  <text x="204" y="300" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="20" font-weight="800">$18,420</text>
+  <text x="204" y="318" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Shop Revenue</text>
+
+  <text x="320" y="300" fill="#22c55e" font-family="system-ui, sans-serif" font-size="20" font-weight="800">29 Jobs</text>
+  <text x="320" y="318" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Completed</text>
+
+  <text x="440" y="300" fill="#c084fc" font-family="system-ui, sans-serif" font-size="20" font-weight="800">99.8%</text>
+  <text x="440" y="318" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">SaaS Uptime</text>
+</svg>

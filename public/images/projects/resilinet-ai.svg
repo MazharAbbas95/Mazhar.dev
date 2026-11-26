@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_res" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e0a1f"/>
+      <stop offset="100%" stop-color="#1b0e36"/>
+    </linearGradient>
+    <linearGradient id="alertG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="radarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="375" fill="url(#bg_res)"/>
+  <circle cx="450" cy="180" r="130" fill="#f59e0b" opacity="0.12" filter="url(#radarGlow)"/>
+
+  <!-- Top Bar -->
+  <rect x="25" y="20" width="550" height="40" rx="8" fill="#170f30" stroke="#332060" stroke-width="1"/>
+  <circle cx="45" cy="40" r="4" fill="#ef4444"/>
+  <circle cx="60" cy="40" r="4" fill="#eab308"/>
+  <circle cx="75" cy="40" r="4" fill="#22c55e"/>
+  <text x="100" y="44" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="900" letter-spacing="1">RESILINET AI // DISASTER DEFENSE INTELLIGENCE</text>
+  <text x="500" y="44" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11">● LIVE ALERT</text>
+
+  <!-- Left AI Telemetry Radar -->
+  <rect x="25" y="72" width="260" height="280" rx="10" fill="#140c2b" stroke="#301d59" stroke-width="1"/>
+  <circle cx="155" cy="180" r="90" fill="none" stroke="#4c2c8f" stroke-width="1"/>
+  <circle cx="155" cy="180" r="60" fill="none" stroke="#6b3eb8" stroke-width="1"/>
+  <circle cx="155" cy="180" r="30" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+  <line x1="65" y1="180" x2="245" y2="180" stroke="#3d2175" stroke-width="1"/>
+  <line x1="155" y1="90" x2="155" y2="270" stroke="#3d2175" stroke-width="1"/>
+
+  <!-- Radar Sweep Ray -->
+  <line x1="155" y1="180" x2="225" y2="120" stroke="#f59e0b" stroke-width="2"/>
+  <circle cx="210" cy="135" r="5" fill="#ef4444" filter="url(#radarGlow)"/>
+  <text x="220" y="132" fill="#ef4444" font-family="system-ui, sans-serif" font-size="9" font-weight="800">RIVER SWELL</text>
+
+  <circle cx="110" cy="210" r="4" fill="#eab308"/>
+  <text x="155" y="325" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Indus River Basin Geospatial Scan</text>
+
+  <!-- Right Neural Risk Model & Alert Cards -->
+  <rect x="298" y="72" width="277" height="130" rx="10" fill="#170f33" stroke="#382169" stroke-width="1"/>
+  <text x="315" y="98" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="10" font-weight="700">AI EARLY WARNING ALERT</text>
+  <text x="315" y="124" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="800">Flash Flood Risk: HIGH (89%)</text>
+  <text x="315" y="145" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Rainfall model predicts 120mm precipitation in 18 hrs.</text>
+  
+  <rect x="315" y="160" width="130" height="28" rx="6" fill="url(#alertG)"/>
+  <text x="380" y="178" fill="#ffffff" font-family="system-ui, sans-serif" font-size="10" font-weight="800" text-anchor="middle">Broadcast Warning</text>
+
+  <rect x="298" y="214" width="277" height="138" rx="10" fill="#170f33" stroke="#382169" stroke-width="1"/>
+  <text x="315" y="240" fill="#c084fc" font-family="system-ui, sans-serif" font-size="10" font-weight="700">NEURAL ARCHITECTURE SPECS</text>
+  <text x="315" y="266" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Multi-Head Spatial Attention Model</text>
+  <text x="315" y="286" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Telemetry: Sentinel-2 Satellite + Ground Sensors</text>
+  <text x="315" y="306" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10">Latency: 140ms Inference Time</text>
+  <text x="315" y="326" fill="#22c55e" font-family="system-ui, sans-serif" font-size="10">Model Accuracy: 96.4% F1-Score</text>
+</svg>
